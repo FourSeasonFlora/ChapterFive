@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>022e9df7-154f-4c4d-84ab-0c48447dd6a6</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>ChapterFive.py</StartupFile>
+    <StartupFile>if_statements_cont.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,6 +22,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="ChapterFive.py" />
+    <Compile Include="if_statements_cont.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
