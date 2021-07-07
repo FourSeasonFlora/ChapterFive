@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>022e9df7-154f-4c4d-84ab-0c48447dd6a6</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>if_statements_cont.py</StartupFile>
+    <StartupFile>if_statments_completed.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -23,6 +23,9 @@
   <ItemGroup>
     <Compile Include="ChapterFive.py" />
     <Compile Include="if_statements_cont.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="if_statments_completed.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>

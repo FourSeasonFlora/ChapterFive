@@ -48,3 +48,10 @@ if foods.lower () in grocery:
     print (f'{foods.title()} is already on the list.\n')
 else:
    print (f'{foods.title()} is not on the list.\n')
+
+avaliable = ['marigolds', 'calendula', 'nastirtums', 'lupine']
+flowers = input ("Please enter the flowers you would like to grow:\n")
+if flowers in avaliable:
+        print (f'{flowers.title()} is avaliable to plant.')
+else:
+        print (f'{flowers.title ()} is not avaliable to plant.')
